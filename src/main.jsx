@@ -9,7 +9,7 @@ import { store, persistor } from './redux/store'; // store ve persistor'u import
 import { BrowserRouter } from 'react-router-dom';
 
 // GitHub Pages için basename ayarı
-const basename = window.location.hostname.includes('github.io') ? '/moneyguard' : '/';
+const basename = window.location.hostname.includes('github.io') ? '/goitreactp' : '/';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
