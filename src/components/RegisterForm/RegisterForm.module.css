@@ -141,10 +141,9 @@ input:-webkit-autofill:active {
   box-shadow: 1px 9px 15px 0 rgba(0, 0, 0, 0.2);
   background: #fcfcfc;
 }
-.passwordStrengthBar {
-}
 
-@media only screen and (min-width: 768px) {
+
+@media only screen and  (min-width: 768px) {
   .background {
     background-image: url("../../assets/register-tablet.webp");
   }
